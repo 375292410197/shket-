@@ -1,0 +1,33 @@
+.justify{
+    display: flex;
+    justify-content: space-between; 
+   
+   }
+   .scale {
+    transition: 1s;
+    display: -webkit-inline-flex; 
+    
+    }
+   .scale:hover {
+    transform: scale(1.2);
+   }
+   @media screen and (max-width: 768px){
+       .scale img{
+        width: 70px;
+        height: 70px;
+        padding: 10px;
+   }
+   .justify{
+       justify-content: center;
+   }
+   @media screen and (max-width: 961px){
+    .scale img{
+     width: 100px;
+     height: 100px;
+     padding: 10px;
+     
+}
+.justify{
+    justify-content: center;
+}
+}
